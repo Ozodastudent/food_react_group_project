@@ -1,0 +1,43 @@
+.site_header {
+  margin-left: 90px;
+  padding-left: 20px;
+  padding-top: 24px;
+  padding-right: 38px;
+  width: 70vw;
+  background-color: #252836;
+}
+.header_title_one {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.header_title_two {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #e0e6e9;
+}
+.header_search_input {
+  width: 240px;
+  padding: 14px 14px 14px 35px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #abbbc2;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+.header_search_input_box {
+  position: relative;
+}
+.search_icon {
+  position: absolute;
+  top: calc(5% + 7px);
+  left: calc(5% - 1px);
+}
