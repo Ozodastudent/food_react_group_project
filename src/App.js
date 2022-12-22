@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import {
   Logo,
   Icon1,
@@ -12,15 +13,23 @@ import { Navbar } from "./components/Navbar/Navbar";
 import "./assets/styles/styles.scss";
 import "./index.scss";
 import { Header } from "./components/Header/Header.js";
+import { Orders } from "./components/Orders/Orders.js";
 
 function App() {
   return (
     <>
       <nav className="nav">
         <ul className="nav_list list-unstyled">
-          <div className="nav_logo">
-            <Navbar image={<Logo />} />
-          </div>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <div className="nav_logo">
+                  <Navbar image={<Logo />} />
+                </div>
+              }
+            />
+          </Routes>
           <div className="nav_home">
             <Navbar image={<Icon1 />} />
           </div>
@@ -45,6 +54,7 @@ function App() {
         </ul>
       </nav>
       <Header />
+      <Orders />
     </>
   );
 }

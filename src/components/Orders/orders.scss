@@ -1,0 +1,135 @@
+.orders_box {
+  padding: 24px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 26vw;
+  background: #1f1d2b;
+  border-radius: 8px 0 0 8px;
+}
+.order_top {
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-bottom: 1px solid #393c49;
+}
+.order_top_title {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.order_top_links {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: -37px;
+  display: flex;
+  list-style: none;
+}
+.order_link_item {
+  padding: 7px 12px;
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+.order_link_item + .order_link_item {
+  margin-left: 8px;
+}
+.order_link {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ea7c69;
+}
+.order_link:hover {
+  color: #ea7c69;
+}
+.order_link_item_active {
+  background-color: #ea7c69;
+}
+.order_link_active {
+  color: #ffffff;
+}
+.order_top_texts {
+  display: flex;
+}
+.order_text {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.order_text_middle {
+  margin-left: 225px;
+  margin-right: 45px;
+}
+.order_main_card_info {
+  display: flex;
+  align-items: center;
+}
+.order_main_info_text {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.order_info_title {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.order_info_desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+}
+.order_main_card_price_input {
+  width: 53px;
+  padding: 14px 20px 12px 20px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  background-color: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+.order_main_card_price_desc {
+  margin-top: 13px;
+  margin-left: 21px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #ffffff;
+}
+.order_main_card_comment {
+  display: flex;
+  justify-content: space-between;
+}
+.order_main_card_comment_input {
+  width: 297px;
+  padding: 14px;
+  border: none;
+  background-color: transparent;
+  background-color: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+.order_main_card_comment_icon {
+  padding: 15px 16px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #ff7ca3;
+  border-radius: 8px;
+}
