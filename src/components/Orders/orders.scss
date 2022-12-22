@@ -1,17 +1,18 @@
 .orders_box {
+  width: 27vw;
   padding: 24px;
   position: fixed;
   top: 0;
   right: 0;
-  width: 26vw;
-  background: #1f1d2b;
+
+  background-color: #1f1d2b;
   border-radius: 8px 0 0 8px;
 }
 .order_top {
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  // align-items: start;
   border-bottom: 1px solid #393c49;
 }
 .order_top_title {
@@ -56,6 +57,8 @@
 }
 .order_top_texts {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .order_text {
   font-family: "Barlow";
@@ -64,9 +67,12 @@
   line-height: 140%;
   color: #ffffff;
 }
+
 .order_text_middle {
-  margin-left: 225px;
-  margin-right: 45px;
+  display: flex;
+}
+.order_main_card2 {
+  margin: 27px 0;
 }
 .order_main_card_info {
   display: flex;
@@ -93,7 +99,7 @@
 }
 .order_main_card_price_input {
   width: 53px;
-  padding: 14px 20px 12px 20px;
+  padding: 10px 20px 10px 20px;
   font-family: "Barlow";
   font-weight: 500;
   font-size: 16px;
@@ -118,8 +124,8 @@
   justify-content: space-between;
 }
 .order_main_card_comment_input {
-  width: 297px;
-  padding: 14px;
+  width: 255px;
+  padding: 1px 0px 1px 14px;
   border: none;
   background-color: transparent;
   background-color: #2d303e;
@@ -127,7 +133,7 @@
   border-radius: 8px;
 }
 .order_main_card_comment_icon {
-  padding: 15px 16px;
+  padding: 13px 14px;
   border: none;
   background-color: transparent;
   border: 1px solid #ff7ca3;
