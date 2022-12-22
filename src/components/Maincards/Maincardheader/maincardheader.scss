@@ -10,10 +10,24 @@
     display: flex; 
     list-style: none;
     border-bottom: 1px solid #fff;
+    position: relative;
+    
+    
+    &::after {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        content: "";
+        width: 50px;
+        height: 3px;
+        background-color: #EA7C69;
+        z-index: 2;
+        border-radius: 2px;
+    }
 }
 
 .maincard-header-item {
-  
+    
     &:not(:last-child){
         margin-right: 32px;
     }
@@ -29,7 +43,7 @@
 }
 
 .active{
-color: #EA7C69;
+    color: #EA7C69;
 }
 
 .mainheader-content{
@@ -58,6 +72,5 @@ color: #EA7C69;
     border: 1px solid #393C49;
     border-radius: 8px;
     appearance: none;
-  
 }
 

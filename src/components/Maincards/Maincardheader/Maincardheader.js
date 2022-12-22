@@ -1,6 +1,6 @@
 import React from 'react'
 import "./maincardheader.scss"
-import down from "../../../assets/images/Base.svg"
+// import down from "../../../assets/images/Mask.svg"
 
 export const Maincardheader = () => {
   return (
