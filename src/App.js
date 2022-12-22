@@ -12,6 +12,9 @@ import { Navbar } from "./components/Navbar/Navbar";
 import "./assets/styles/styles.scss";
 import "./index.scss";
 import { Header } from "./components/Header/Header.js";
+import { Maincardlist } from "./components/Maincards/Maincardlist.js";
+import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader.js";
+
 
 function App() {
   return (
@@ -45,6 +48,12 @@ function App() {
         </ul>
       </nav>
       <Header />
+     <main className="main-part">
+       <div className="main-width">
+       <Maincardheader/>
+       <Maincardlist />
+       </div>
+     </main>
     </>
   );
 }
