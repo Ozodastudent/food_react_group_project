@@ -3,8 +3,9 @@ import "./header.scss";
 import { SearchIcon } from "../../assets/images/icons/icons";
 export const Header = () => {
   return (
-    <header className="site_header">
-      <div className="header_container">
+    <header className="header-bg">
+       <div className="site_header">
+       <div className="header_container">
         <div className="header_top d-flex justify-content-between align-items-center">
           <div className="header_top_titles">
             <h4 className="header_title_one">Jaegar Resto</h4>
@@ -27,6 +28,7 @@ export const Header = () => {
         </div>
         <div className="header_bottom"></div>
       </div>
+       </div>
     </header>
   );
 };

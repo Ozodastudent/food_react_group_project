@@ -1,0 +1,67 @@
+
+.dashmadin-body{
+    background-color: #1F1D2B;
+    border-radius: 8px;
+}
+.dashmaintop{
+    padding: 24px 16px 16px 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.orderreport{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+
+.filterbtn {
+    font-weight: 500;
+ font-size: 16px;
+line-height: 130%;
+color: #FFFFFF;
+    padding: 14px 14px 14px 44px;
+    background: #1F1D2B;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    position: relative;
+
+
+    &::before {
+    content: "";
+    background-image: url("../../../assets/images/elemets/Filter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    }
+}
+
+.dmenu-list{
+display: flex;
+// justify-content: space-around;
+color: #FFFFFF;
+border-bottom: 1px solid #393C49;
+}
+.ptext{
+
+    padding-left: 24px;
+}
+.dmenu-item {
+    padding-bottom: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+
+
+
+
