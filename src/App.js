@@ -17,8 +17,6 @@ import { Maincardlist } from "./components/Maincards/Maincardlist.js";
 import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader.js";
 
 import { Orders } from "./components/Orders/Orders.js";
-import { Maincardlist } from "./components/Maincards/Maincardlist.js";
-import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader.js";
 import { Second } from "./components/Second/Second";
 
 function App() {
@@ -55,12 +53,12 @@ function App() {
         </ul>
       </nav>
       <Header />
-     <main className="main-part">
-       <div className="main-width">
-       <Maincardheader/>
-       <Maincardlist />
-       </div>
-     </main>
+      <main className="main-part">
+        <div className="main-width">
+          <Maincardheader />
+          <Maincardlist />
+        </div>
+      </main>
       <Navbar />
       <Routes>
         <Route path="/link" element={<Second />} />
