@@ -19,7 +19,6 @@ import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardhe
 
 import { Orders } from "./components/Orders/Orders.js";
 import { Second } from "./components/Second/Second";
-import {Orders} from "./components/Orders/Orders.js";
 import { Dashboard } from "./pages/Dashboard/Dashboard.js";
 
 function App() {
@@ -55,13 +54,6 @@ function App() {
           </div>
         </ul>
       </nav>
-      {/* <Header />
-     <main className="main-part">
-       <div className="main-width">
-       <Maincardheader/>
-       <Maincardlist />
-       </div>
-     </main> */}
       <Header />
       <main className="main-part">
         <div className="main-width">
