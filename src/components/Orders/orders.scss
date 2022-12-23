@@ -1,5 +1,5 @@
 .orders_box {
-  width: 10vw;
+  width: 27vw;
   padding: 24px;
   position: fixed;
   top: 0;
@@ -124,7 +124,8 @@
   justify-content: space-between;
 }
 .order_main_card_comment_input {
-  width: 255px;
+  width: 100%;
+  max-width: 340px;
   padding: 1px 0px 1px 14px;
   border: none;
   background-color: transparent;

@@ -16,10 +16,8 @@ import { Header } from "./components/Header/Header.js";
 import { Maincardlist } from "./components/Maincards/Maincardlist.js";
 import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader.js";
 
-
-import { Orders } from "./components/Orders/Orders.js";
 import { Second } from "./components/Second/Second";
-import {Orders} from "./components/Orders/Orders.js";
+import { Orders } from "./components/Orders/Orders.js";
 import { Dashboard } from "./pages/Dashboard/Dashboard.js";
 
 function App() {
@@ -75,17 +73,18 @@ function App() {
         <Route
           path="/"
           element={
-              <>
-                <Header />
-                <Orders />
-                <main className="main-part">
-                  <div className="main-width">
-                    <Maincardheader />
-                    <Maincardlist />
-                  </div>
-                </main>
-               </>
-            }/>
+            <>
+              <Header />
+              <Orders />
+              <main className="main-part">
+                <div className="main-width">
+                  <Maincardheader />
+                  <Maincardlist />
+                </div>
+              </main>
+            </>
+          }
+        />
         <Route path="/link" element={<Second />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
