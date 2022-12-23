@@ -53,21 +53,6 @@ function App() {
           </div>
         </ul>
       </nav>
-      {/* <Header />
-     <main className="main-part">
-       <div className="main-width">
-       <Maincardheader/>
-       <Maincardlist />
-       </div>
-     </main> */}
-      <Header />
-      <main className="main-part">
-        <div className="main-width">
-          <Maincardheader />
-          <Maincardlist />
-        </div>
-      </main>
-
       <Navbar />
       <Routes>
         <Route
@@ -86,7 +71,15 @@ function App() {
           }
         />
         <Route path="/link" element={<Second />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route
+          path="/dashboard"
+          element={
+            <>
+              <Dashboard />
+              <Orders />
+            </>
+          }
+        />
       </Routes>
     </>
   );
