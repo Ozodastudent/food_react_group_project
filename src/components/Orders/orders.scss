@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   right: 0;
-
+  height: 100vh;
   background-color: #1f1d2b;
   border-radius: 8px 0 0 8px;
 }
@@ -12,7 +12,6 @@
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
-  // align-items: start;
   border-bottom: 1px solid #393c49;
 }
 .order_top_title {
@@ -70,6 +69,9 @@
 
 .order_text_middle {
   display: flex;
+}
+.order_main {
+  position: relative;
 }
 .order_main_card2 {
   margin: 27px 0;
@@ -139,4 +141,55 @@
   background-color: transparent;
   border: 1px solid #ff7ca3;
   border-radius: 8px;
+}
+.comment_btn {
+  border: 1px solid #ea7c69;
+}
+.order_main_card4 {
+  margin-top: 15px;
+}
+.order_bottom_card {
+  padding-top: 10px;
+  // padding-bottom: 24px;
+  width: 100%;
+  position: absolute;
+  bottom: calc(5% - 100px);
+  right: 0;
+  z-index: 1;
+  background-color: #1f1d2b;
+}
+.order_bottom_card_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_bottom_card_item_text_one {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #abbbc2;
+}
+.order_bottom_card_item_text_two {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #ffffff;
+}
+.order_bottom_card_link {
+  padding: 14px 116px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration: none;
+  color: #fafafa;
+  background: #ea7c69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+  border-radius: 8px;
+}
+.order_bottom_card_link:hover {
+  color: #ffffff;
 }
