@@ -1,0 +1,40 @@
+.ditem{
+margin-bottom: 2px;
+padding: 16px 24px;
+}
+
+.ditems{
+display: flex;
+}
+.ditems-img{
+margin-right: 24px;
+}
+
+.ditems-name{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #E0E6E9;
+}
+
+.ditems-desc {
+    font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #E0E6E9;
+align-self: center;
+}
+
+.ditems-pric {
+    font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #E0E6E9;
+    align-self: center;
+}
+.ditems-done {
+    color: #50D1AA;
+padding: 4px 12px;
+background-color: rgba(107, 226, 190, 0.24);
+border-radius: 30px;
+}
