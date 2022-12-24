@@ -64,4 +64,13 @@ border-bottom: 1px solid #393C49;
 
 
 
+.mainitemslist{
+height: 340px;
+overflow-y: scroll;
 
+
+}
+
+.mainitemslist::-webkit-scrollbar{
+    display: none;
+}
