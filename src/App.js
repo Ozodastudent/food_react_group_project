@@ -24,38 +24,8 @@ import { Dashboard } from "./pages/Dashboard/Dashboard.js";
 import { Settings } from "./components/Settings/Settings.js";
 
 function App() {
-
   return (
     <>
-      <nav className="nav">
-        <ul className="nav_list list-unstyled">
-          <div className="nav_logo">
-            <Navbar image={<Logo />} />
-          </div>
-          <div className="nav_home">
-            <Navbar image={<Icon1 />} />
-          </div>
-          <div className="nav_box">
-            <Navbar image={<Icon2 />} />
-          </div>
-          <div className="nav_box">
-            <Navbar image={<Icon3 />} />
-          </div>
-          <div className="nav_box">
-            <Navbar image={<Icon4 />} />
-          </div>
-          <div className="nav_box">
-            <Navbar image={<Icon5 />} />
-          </div>
-          <div className="nav_box">
-            <Navbar image={<Icon6 />} />
-          </div>
-          <div className="nav_box">
-            <Navbar image={<Icon7 />} />
-          </div>
-        </ul>
-      </nav>
-      
       <Navbar />
       <Routes>
         <Route
@@ -79,7 +49,6 @@ function App() {
           element={
             <>
               <Dashboard />
-              {/* <Orders /> */}
             </>
           }
         />
