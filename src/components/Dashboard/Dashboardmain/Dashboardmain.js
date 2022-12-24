@@ -20,7 +20,7 @@ export const Dashboardmain = () => {
           </ul>
         </div>
 
-        <ul className='list-unstyled'>
+        <ul className='list-unstyled mainitemslist'>
         {
                 fakeitems.map(item => <Dashboarditems/> )
             }

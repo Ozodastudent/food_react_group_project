@@ -17,11 +17,12 @@ import { Maincardlist } from "./components/Maincards/Maincardlist.js";
 import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader.js";
 
 import { Second } from "./components/Second/Second";
+
 import { Orders } from "./components/Orders/Orders.js";
+
 import { Dashboard } from "./pages/Dashboard/Dashboard.js";
 
 function App() {
-  const fakedata = Array(10).fill(1);
 
   return (
     <>
@@ -53,6 +54,7 @@ function App() {
           </div>
         </ul>
       </nav>
+      
       <Navbar />
       <Routes>
         <Route
