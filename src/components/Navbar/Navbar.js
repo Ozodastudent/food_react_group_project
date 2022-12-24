@@ -30,7 +30,12 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav_item">
-          <NavLink to="/" className="nav_link isActive">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "nav_link active" : "nav_link"
+            }
+          >
             <span className="nav_icon">
               <IconPink />
             </span>
@@ -40,12 +45,7 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav_item">
-          <NavLink
-            to="/link"
-            className={({ isActive }) =>
-              isActive ? "nav_link active" : "nav_link"
-            }
-          >
+          <NavLink className="nav_link" to="/link">
             <span className="nav_icon">
               <Icon2 />
             </span>

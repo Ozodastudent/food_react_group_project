@@ -1,5 +1,66 @@
 .setting_part {
   padding-left: 130px;
-  width: 100vw;
-  background-color: khaki;
+  height: 100vh;
+  background-color: #252836;
+}
+.setting_part_title {
+  padding: 24px 0;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.setting_part_box {
+  width: 275px;
+  height: 723px;
+  background: #1f1d2b;
+  border-radius: 8px;
+}
+.setting_list {
+  list-style: none;
+}
+.setting_list_item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.setting_list_link {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  background-color: #ea7c69;
+}
+.nav_link_text {
+  margin-left: 10px;
+}
+.nav_link_text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 39px;
+  background: #ea7c69;
+  border-radius: 30px;
+}
+
+.setting_list_link_one {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 90%;
+  color: #ffffff;
+}
+.setting_list_link_two {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10%;
+  color: #abbbc2;
+}
+.nav_active {
+  width: 275px;
+  margin-left: -32px;
+  padding-left: 29px;
+  background: rgba(234, 124, 105, 0.26);
 }
