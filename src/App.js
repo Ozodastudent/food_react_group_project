@@ -19,6 +19,7 @@ import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardhe
 import { Second } from "./components/Second/Second";
 import { Orders } from "./components/Orders/Orders.js";
 import { Dashboard } from "./pages/Dashboard/Dashboard.js";
+import { Settings } from "./components/Settings/Settings.js";
 
 function App() {
   const fakedata = Array(10).fill(1);
@@ -76,10 +77,11 @@ function App() {
           element={
             <>
               <Dashboard />
-              <Orders />
+              {/* <Orders /> */}
             </>
           }
         />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </>
   );
