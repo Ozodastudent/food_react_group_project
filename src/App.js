@@ -23,7 +23,6 @@ import { Orders } from "./components/Orders/Orders.js";
 import { Dashboard } from "./pages/Dashboard/Dashboard.js";
 
 function App() {
-  const fakedata = Array(10).fill(1);
 
   return (
     <>
@@ -55,14 +54,7 @@ function App() {
           </div>
         </ul>
       </nav>
-      <Header />
-      <main className="main-part">
-        <div className="main-width">
-          <Maincardheader />
-          <Maincardlist />
-        </div>
-      </main>
-
+ 
       <Navbar />
       <Routes>
         <Route
