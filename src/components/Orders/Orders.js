@@ -32,7 +32,7 @@ export const Orders = () => {
         </div>
       </div>
       <div className="order_main">
-        <div className="order_main_card1">
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -62,7 +62,7 @@ export const Orders = () => {
             </button>
           </div>
         </div>
-        <div className="order_main_card2">
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -92,7 +92,7 @@ export const Orders = () => {
             </button>
           </div>
         </div>
-        <div className="order_main_card3">
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -122,7 +122,7 @@ export const Orders = () => {
             </button>
           </div>
         </div>
-        <div className="order_main_card3">
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -152,7 +152,7 @@ export const Orders = () => {
             </button>
           </div>
         </div>
-        <div className="order_main_card3">
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -182,7 +182,7 @@ export const Orders = () => {
             </button>
           </div>
         </div>
-        <div className="order_main_card3">
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -212,7 +212,67 @@ export const Orders = () => {
             </button>
           </div>
         </div>
-        <div className="order_main_card3">
+        <div className="order_main_card">
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="order_main_card_info">
+              <img src={OrderFood1} alt="food" />
+              <div className="order_main_info_text">
+                <h5 className="order_info_title">Spicy seasoned sea...</h5>
+                <p className="order_info_desc">$ 2.29</p>
+              </div>
+            </div>
+            <div className="order_main_card_price d-flex align-items-center">
+              <input
+                className="order_main_card_price_input"
+                type="text"
+                placeholder="2"
+              />
+              <p className="order_main_card_price_desc">$ 4,58</p>
+            </div>
+          </div>
+          <div className="order_main_card_comment">
+            <input
+              className="order_main_card_comment_input"
+              type="text"
+              name="comment"
+              placeholder="Order Note..."
+            />
+            <button className="order_main_card_comment_icon comment_btn">
+              <TrashIcon2 />
+            </button>
+          </div>
+        </div>
+        <div className="order_main_card">
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="order_main_card_info">
+              <img src={OrderFood1} alt="food" />
+              <div className="order_main_info_text">
+                <h5 className="order_info_title">Spicy seasoned sea...</h5>
+                <p className="order_info_desc">$ 2.29</p>
+              </div>
+            </div>
+            <div className="order_main_card_price d-flex align-items-center">
+              <input
+                className="order_main_card_price_input"
+                type="text"
+                placeholder="2"
+              />
+              <p className="order_main_card_price_desc">$ 4,58</p>
+            </div>
+          </div>
+          <div className="order_main_card_comment">
+            <input
+              className="order_main_card_comment_input"
+              type="text"
+              name="comment"
+              placeholder="Order Note..."
+            />
+            <button className="order_main_card_comment_icon comment_btn">
+              <TrashIcon2 />
+            </button>
+          </div>
+        </div>
+        <div className="order_main_card">
           <div className="d-flex align-items-center justify-content-between">
             <div className="order_main_card_info">
               <img src={OrderFood1} alt="food" />
@@ -251,9 +311,11 @@ export const Orders = () => {
             <p className="order_bottom_card_item_text_one">Sub total</p>
             <p className="order_bottom_card_item_text_two"> $ 21,03</p>
           </div>
-          <a href="#" className="order_bottom_card_link offset-1">
-            Continue to Payment
-          </a>
+          <div className="order_bottom_card_link_box">
+            <a href="#" className="order_bottom_card_link offset-1">
+              Continue to Payment
+            </a>
+          </div>
         </div>
       </div>
     </div>

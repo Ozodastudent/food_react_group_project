@@ -1,31 +1,21 @@
-import {
-  Logo,
-  Icon1,
-  Icon2,
-  Icon3,
-  Icon4,
-  Icon5,
-  Icon6,
-  Icon7,
-} from "./assets/images/icons/icons.js";
 import { Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import "./assets/styles/styles.scss";
 import "./index.scss";
-import { Header } from "./components/Header/Header.js";
-import { Maincardlist } from "./components/Maincards/Maincardlist.js";
-import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader.js";
-
+import { Header } from "./components/Header/Header";
+import { Maincardlist } from "./components/Maincards/Maincardlist";
+import { Maincardheader } from "./components/Maincards/Maincardheader/Maincardheader";
 import { Second } from "./components/Second/Second";
-
-import { Orders } from "./components/Orders/Orders.js";
-
-import { Dashboard } from "./pages/Dashboard/Dashboard.js";
-import { Settings } from "./components/Settings/Settings.js";
+import { Orders } from "./components/Orders/Orders";
+import { Dashboard } from "./pages/Dashboard/Dashboard";
+import { Settings } from "./components/Settings/Settings";
+import { Message } from "./components/Message/Message";
+import { Notif } from "./components/NotifPage/Notif";
+import { Logout } from "./components/Logout/Logout";
 
 function App() {
   return (
-    <>
+    <body>
       <Navbar />
       <Routes>
         <Route
@@ -52,9 +42,12 @@ function App() {
             </>
           }
         />
+        <Route path="/message" element={<Message />} />
+        <Route path="/notification" element={<Notif />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/logout" element={<Logout />} />
       </Routes>
-    </>
+    </body>
   );
 }
 

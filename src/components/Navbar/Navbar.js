@@ -65,7 +65,7 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav_item">
-          <NavLink to="/" className="nav_link">
+          <NavLink to="/message" className="nav_link">
             <span className="nav_icon">
               <Icon4 />
             </span>
@@ -75,7 +75,7 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav_item">
-          <NavLink to="/" className="nav_link">
+          <NavLink to="/notification" className="nav_link">
             <span className="nav_icon">
               <Icon5 />
             </span>
@@ -95,7 +95,7 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav_item">
-          <NavLink to="/" className="nav_link">
+          <NavLink to="/logout" className="nav_link">
             <span className="nav_icon">
               <Icon7 />
             </span>

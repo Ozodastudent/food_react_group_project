@@ -23,9 +23,10 @@ export const Settings = () => {
           <li className="setting_list_item">
             <Link
               to=""
-              className={({ isActive }) =>
-                isActive ? "setting_list_link nav_active" : "setting_list_link"
-              }
+              className="setting_list_link"
+              // className={({ isActive }) =>
+              //   isActive ? "setting_list_link nav_active" : "setting_list_link"
+              // }
             >
               <HeartIcon />
               <div className="nav_link_text">

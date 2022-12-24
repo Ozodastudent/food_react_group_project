@@ -21,28 +21,31 @@
   list-style: none;
 }
 .setting_list_item {
+  width: 275px;
+  margin-left: -31.5px;
+  padding-left: 25px;
   padding-top: 24px;
   padding-bottom: 24px;
+  // background-color: #ea7c6942;
 }
 .setting_list_link {
   position: relative;
   text-decoration: none;
   display: flex;
-  background-color: #ea7c69;
 }
 .nav_link_text {
   margin-left: 10px;
 }
-.nav_link_text::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 4px;
-  height: 39px;
-  background: #ea7c69;
-  border-radius: 30px;
-}
+// .nav_link_text::after {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   width: 4px;
+//   height: 39px;
+//   background: #ea7c69;
+//   border-radius: 30px;
+// }
 
 .setting_list_link_one {
   font-family: "Barlow";
@@ -57,10 +60,4 @@
   font-size: 12px;
   line-height: 10%;
   color: #abbbc2;
-}
-.nav_active {
-  width: 275px;
-  margin-left: -32px;
-  padding-left: 29px;
-  background: rgba(234, 124, 105, 0.26);
 }
