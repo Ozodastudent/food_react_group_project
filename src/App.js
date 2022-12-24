@@ -54,7 +54,7 @@ function App() {
           </div>
         </ul>
       </nav>
- 
+      
       <Navbar />
       <Routes>
         <Route
@@ -73,7 +73,15 @@ function App() {
           }
         />
         <Route path="/link" element={<Second />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route
+          path="/dashboard"
+          element={
+            <>
+              <Dashboard />
+              <Orders />
+            </>
+          }
+        />
       </Routes>
     </>
   );
