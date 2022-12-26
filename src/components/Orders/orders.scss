@@ -165,7 +165,6 @@
   border-top: 1px solid #393c49;
 }
 .order_bottom_card_item {
-  // margin-bottom: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,14 +207,26 @@
   .order_bottom_card_link {
     padding: 14px 90px;
   }
+  .order_main_card_comment_input {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 @media only screen and (max-width: 1390px) {
   .order_bottom_card_link {
     padding: 14px 70px;
   }
+  .order_main_card_comment_input {
+    width: 100%;
+    max-width: 260px;
+  }
 }
 @media only screen and (max-width: 1300px) {
   .order_bottom_card_link {
     padding: 14px 50px;
+  }
+  .order_main_card_comment_input {
+    width: 100%;
+    max-width: 220px;
   }
 }

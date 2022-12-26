@@ -1,115 +1,115 @@
-.dashboard-header{
-margin-bottom: 24px;
+.dashboard-header {
+  margin-bottom: 24px;
 }
 
-.dashboard-top{
-border-bottom: 1px solid #a8a9b0;
+.dashboard-top {
+  border-bottom: 1px solid #808188;
 }
 
-.dashboard-title{
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 140%;
-    color: #FFFFFF;
+.dashboard-title {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
 }
-.dashboard-time{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #ABBBC2;
-}
-
-.dashboard-list{
-margin-top: 24px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+.dashboard-time {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #abbbc2;
 }
 
-.dashboard-item{
-    padding: 25px;
-    width: 20vw;
-    height: auto;
-    background: #1F1D2B;
-    border-radius: 8px;  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.dashboard-list {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    &:not(:last-child){
+.dashboard-item {
+  padding: 16px;
+  width: 19vw;
+  height: auto;
+  background: #1f1d2b;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  &:not(:last-child) {
     margin-right: 50px;
-    }
+  }
 }
 
-
-.first-icon{
-    margin-right: 12px;
-    display: inline-block;
-    padding: 7px;
-    width: 50px;
-    height: 50px;
-    background: #252836;
-    border-radius: 8px;
-    background-image: url("../../../assets/images/elemets/dollar.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+.first-icon {
+  margin-right: 12px;
+  display: inline-block;
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+  background: #252836;
+  border-radius: 8px;
+  background-image: url("../../../assets/images/elemets/dollar.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .first-text {
-    margin-right: 12px;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 140%;
-    color: #50D1AA;
+  margin-right: 12px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  color: #50d1aa;
 }
 
-
-.first-top{
-    padding: 2px;
-    gap: 10px;
-    width: 40px;
-    height: 40px;
-    background: rgba(136, 224, 145, 0.24);
-    border-radius: 50%;
-    background-image: url("../../../assets/images/elemets/up.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+.first-top {
+  padding: 2px;
+  gap: 10px;
+  width: 40px;
+  height: 40px;
+  background: rgba(136, 224, 145, 0.24);
+  border-radius: 50%;
+  background-image: url("../../../assets/images/elemets/up.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
-.dmain-text{
-    margin-top: 20px;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 140%;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.dmain-text {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.avenue{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 130%;
-    color: #ABBBC2;
+.avenue {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #abbbc2;
 }
 
 .middle {
-color: #FF7CA3;
+  color: #ff7ca3;
 }
 
 .bookmark {
-background-image: url("../../../assets/images/elemets/Bookmark.svg");
+  background-image: url("../../../assets/images/elemets/Bookmark.svg");
 }
 
-.middle-icon{
-    background: rgba(255, 100, 113, 0.24);
-background-image: url("../../../assets/images/elemets/downicon.svg");
-background-repeat: no-repeat;
-background-position: center;
+.middle-icon {
+  background: rgba(255, 100, 113, 0.24);
+  background-image: url("../../../assets/images/elemets/downicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.people{
-    background-image: url("../../../assets/images/elemets/users.svg");
+.people {
+  background-image: url("../../../assets/images/elemets/users.svg");
 }

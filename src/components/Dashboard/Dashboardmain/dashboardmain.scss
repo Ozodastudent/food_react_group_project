@@ -10,6 +10,7 @@
 }
 
 .orderreport {
+  font-family: "Barlow";
   font-weight: 600;
   font-size: 26px;
   line-height: 140%;
@@ -17,6 +18,7 @@
 }
 
 .filterbtn {
+  font-family: "Barlow";
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
@@ -42,7 +44,6 @@
 
 .dmenu-list {
   display: flex;
-  // justify-content: space-around;
   color: #ffffff;
   border-bottom: 1px solid #393c49;
 }
@@ -51,6 +52,7 @@
 }
 .dmenu-item {
   padding-bottom: 24px;
+  font-family: "Barlow";
   font-weight: 600;
   font-size: 20px;
   line-height: 140%;

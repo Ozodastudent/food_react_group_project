@@ -1,24 +1,17 @@
 .cards {
   padding: 114px 24px 24px 20px;
-  // width: 20vw;
-  // width: 152px;
-  // height: 256px;
   background-color: #1f1d2b;
   border-radius: 16px;
-  // color: white;
   margin-left: 8px;
   margin-bottom: 78px;
   flex-shrink: 0;
   position: relative;
-  & + & {
-    margin-left: 28px;
-  }
+  margin-right: 28px;
 }
 
 .card-image {
   position: absolute;
   top: -60px;
-  // right: 31px;
   right: 0;
   left: 0;
   margin: 0 auto;
