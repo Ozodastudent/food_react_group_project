@@ -1,3 +1,6 @@
+.setting_page {
+  display: flex;
+}
 .setting_part {
   padding-left: 130px;
   height: 100vh;
@@ -26,7 +29,6 @@
   padding-left: 25px;
   padding-top: 24px;
   padding-bottom: 24px;
-  // background-color: #ea7c6942;
 }
 .setting_list_link {
   position: relative;
@@ -36,16 +38,19 @@
 .nav_link_text {
   margin-left: 10px;
 }
-// .nav_link_text::after {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   width: 4px;
-//   height: 39px;
-//   background: #ea7c69;
-//   border-radius: 30px;
-// }
+.setting_active .setting_list_item {
+  background-color: #ea7c6942;
+}
+.setting_active .nav_link_text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 39px;
+  background: #ea7c69;
+  border-radius: 30px;
+}
 
 .setting_list_link_one {
   font-family: "Barlow";
@@ -60,4 +65,17 @@
   font-size: 12px;
   line-height: 10%;
   color: #abbbc2;
+}
+.setting_part_right {
+  padding-top: 86px;
+  padding-left: 30px;
+  width: 100vw;
+  background-color: #252836;
+}
+.setting_part_right_title {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
 }

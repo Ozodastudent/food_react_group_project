@@ -12,72 +12,11 @@
 .orders_box::-webkit-scrollbar {
   display: none;
 }
-.order_top {
-  padding-bottom: 24px;
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid #393c49;
-}
-.order_top_title {
-  font-family: "Barlow";
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 140%;
-  color: #ffffff;
-}
-.order_top_links {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: -37px;
-  display: flex;
-  list-style: none;
-}
-.order_link_item {
-  padding: 7px 12px;
-  background: #1f1d2b;
-  border: 1px solid #393c49;
-  border-radius: 8px;
-}
-.order_link_item + .order_link_item {
-  margin-left: 8px;
-}
-.order_link {
-  text-decoration: none;
-  font-family: "Barlow";
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 140%;
-  color: #ea7c69;
-}
-.order_link:hover {
-  color: #ea7c69;
-}
-.order_link_item_active {
-  background-color: #ea7c69;
-}
-.order_link_active {
-  color: #ffffff;
-}
-.order_top_texts {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.order_text {
-  font-family: "Barlow";
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 140%;
-  color: #ffffff;
-}
-
-.order_text_middle {
-  display: flex;
-}
 .order_main {
   position: relative;
 }
 .order_main_card {
+  margin-top: 20px;
   & + & {
     margin-top: 24px;
   }

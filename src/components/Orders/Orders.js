@@ -4,38 +4,13 @@ import { TrashIcon1, TrashIcon2 } from "../../assets/images/icons/icons";
 import { Link } from "react-router-dom";
 import { Modal } from "../../components/Modal/Modal";
 import { useState } from "react";
+import { OrdersHead } from "../OrdersHeader/OrdersHead";
 export const Orders = () => {
   const [addModal, setAddModal] = useState(false);
   return (
     <>
       <div className="orders_box">
-        <div className="order_top">
-          <h3 className="order_top_title">Orders #34562</h3>
-          <ul className="order_top_links">
-            <li className="order_link_item order_link_item_active">
-              <Link to="/" className="order_link order_link_active">
-                Dine In
-              </Link>
-            </li>
-            <li className="order_link_item">
-              <Link to="/" className="order_link">
-                To Go
-              </Link>
-            </li>
-            <li className="order_link_item">
-              <Link to="/" className="order_link">
-                Delivery
-              </Link>
-            </li>
-          </ul>
-          <div className="order_top_texts">
-            <p className="order_text">Item</p>
-            <div className="order_text_middle">
-              <p className="order_text me-4">Qty</p>
-              <p className="order_text">Price</p>
-            </div>
-          </div>
-        </div>
+        <OrdersHead />
         <div className="order_main">
           <div className="order_main_card">
             <div className="d-flex align-items-center justify-content-between">

@@ -51,7 +51,7 @@ function App() {
         />
         <Route path="/message" element={<Message />} />
         <Route path="/notification" element={<Notif />} />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/settings/*" element={<Settings />} />
         <Route path="/logout" element={<Logout />} />
       </Routes>
     </body>

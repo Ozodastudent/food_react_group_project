@@ -1,0 +1,59 @@
+.order_top {
+  width: 27vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 24px 24px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #393c49;
+  background-color: #1f1d2b;
+}
+.order_top_title {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.order_top_texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_text {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.order_text_middle {
+  display: flex;
+}
+.order_top_options {
+  margin-left: -16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.order_top_option_input {
+  opacity: 0;
+}
+.order_top_option_input:checked + .order_top_option_text {
+  color: #ffffff;
+  background-color: #ea7c69;
+  border: 1px solid #ea7c69;
+}
+
+.order_top_option_text {
+  padding: 7px 12px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ea7c69;
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
