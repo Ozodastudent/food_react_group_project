@@ -2,7 +2,6 @@ import React from "react";
 import "./modal.scss";
 import {
   PaymentIcon1,
-  PaymentIcon2,
   PaymentIcon3,
   PaymentIcon4,
 } from "../../assets/images/icons/icons.js";
@@ -19,10 +18,7 @@ export const Modal = ({ modal, setModal }) => {
             <h3 className="payment_card_method_title">Payment Method</h3>
             <div className="payment_card_method_boxes">
               <div className="payment_card_box">
-                <div className="d-flex">
-                  <PaymentIcon1 />
-                  <PaymentIcon2 />
-                </div>
+                <PaymentIcon1 />
                 <p className="payment_card_box_text">Credit Card</p>
               </div>
               <div className="payment_card_box">
