@@ -189,6 +189,7 @@
 }
 .order_bottom_card_link {
   padding: 14px 116px;
+  border: none;
   font-family: "Barlow";
   font-weight: 600;
   font-size: 14px;
@@ -202,6 +203,18 @@
 .order_bottom_card_link:hover {
   color: #ffffff;
 }
+// .payment_modal_box {
+//   position: relative;
+//   background-color: red;
+// }
+// .payment_modal {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   width: 27vw;
+//   height: 400px;
+//   background-color: white;
+// }
 
 @media only screen and (max-width: 1520px) {
   .order_bottom_card_link {
@@ -228,5 +241,8 @@
   .order_main_card_comment_input {
     width: 100%;
     max-width: 220px;
+  }
+  .payment_card {
+    padding-bottom: 10px;
   }
 }

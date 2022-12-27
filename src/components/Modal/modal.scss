@@ -1,0 +1,152 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background-color: #000000b2;
+}
+
+.payment_card {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  padding: 64px 24px 100px 24px;
+  background: #1f1d2b;
+  border-radius: 16px 0px 0px 16px;
+  width: 28vw;
+  overflow-y: scroll;
+}
+.payment_card::-webkit-scrollbar {
+  display: none;
+}
+.payment_card_text {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #393c49;
+}
+.payment_card_text_one {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.payment_card_text_two {
+  margin-top: 8px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #abbbc2;
+}
+.payment_card_method {
+  margin-top: 24px;
+}
+.payment_card_method_title {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.payment_card_method_boxes {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.payment_card_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 29px;
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+.payment_card_box_text {
+  margin-top: 2px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #abbbc2;
+}
+.payment_card_method_name {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.payment_card_method_input {
+  margin-top: 8px;
+  padding: 14px 0px 14px 14px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #e0e6e9;
+}
+.payment_form_dates {
+  display: flex;
+  justify-content: space-between;
+}
+.payment_form_date {
+  width: 11.5vw;
+}
+.payment_form_orders {
+  display: flex;
+  justify-content: space-between;
+}
+.payment_form_orders_select {
+  width: 11.5vw;
+}
+.payment_form_orders_number {
+  width: 11.5vw;
+}
+.payment_card_buttons {
+  width: 28vw;
+  padding: 25px 20px;
+  background-color: inherit;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.payment_card_buttons_one {
+  width: 11.5vw;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  border: 1px solid #ea7c69;
+  border-radius: 8px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  background-color: transparent;
+  color: #ea7c69;
+}
+.payment_card_buttons_two {
+  width: 11.5vw;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fafafa;
+  border: none;
+  background: #ea7c69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.4);
+  border-radius: 8px;
+}

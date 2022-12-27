@@ -33,7 +33,14 @@ function App() {
             </>
           }
         />
-        <Route path="/link" element={<Second />} />
+        <Route
+          path="/link"
+          element={
+            <>
+              <Second />
+            </>
+          }
+        />
         <Route
           path="/dashboard"
           element={
