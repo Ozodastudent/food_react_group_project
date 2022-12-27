@@ -25,12 +25,12 @@ export const Settings = () => {
               <li className="setting_list_item">
                 <Link
                   to="appereance"
-                  // className="setting_list_link"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "setting_list_link setting_active"
-                      : "setting_list_link"
-                  }
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
                 >
                   <HeartIcon />
                   <div className="nav_link_text">
@@ -42,7 +42,15 @@ export const Settings = () => {
                 </Link>
               </li>
               <li className="setting_list_item">
-                <Link to="reastaurant" className="setting_list_link">
+                <Link
+                  to="reastaurant"
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
+                >
                   <HomeIcon />
                   <div className="nav_link_text">
                     <p className="setting_list_link_one">Your Restaurant</p>
@@ -53,7 +61,15 @@ export const Settings = () => {
                 </Link>
               </li>
               <li className="setting_list_item">
-                <Link to="product" className="setting_list_link">
+                <Link
+                  to="product"
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
+                >
                   <FlowerIconWhite />
                   <div className="nav_link_text">
                     <p className="setting_list_link_one">Products Management</p>
@@ -64,7 +80,15 @@ export const Settings = () => {
                 </Link>
               </li>
               <li className="setting_list_item">
-                <Link to="settingnotification" className="setting_list_link">
+                <Link
+                  to="settingnotification"
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
+                >
                   <Notif />
                   <div className="nav_link_text">
                     <p className="setting_list_link_one">Notifications</p>
@@ -75,7 +99,15 @@ export const Settings = () => {
                 </Link>
               </li>
               <li className="setting_list_item">
-                <Link to="security" className="setting_list_link">
+                <Link
+                  to="security"
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
+                >
                   <SecurIcon />
                   <div className="nav_link_text">
                     <p className="setting_list_link_one">Security</p>
@@ -86,7 +118,15 @@ export const Settings = () => {
                 </Link>
               </li>
               <li className="setting_list_item">
-                <Link to="security" className="setting_list_link">
+                <Link
+                  to="security"
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
+                >
                   <SecurIcon />
                   <div className="nav_link_text">
                     <p className="setting_list_link_one">Security</p>
@@ -97,7 +137,15 @@ export const Settings = () => {
                 </Link>
               </li>
               <li className="setting_list_item">
-                <Link to="about" className="setting_list_link">
+                <Link
+                  to="about"
+                  className="setting_list_link"
+                  // className={({ isActive }) =>
+                  //   isActive
+                  //     ? "setting_list_link activeset"
+                  //     : "setting_list_link"
+                  // }
+                >
                   <AboutIcon />
                   <div className="nav_link_text">
                     <p className="setting_list_link_one">About Us</p>

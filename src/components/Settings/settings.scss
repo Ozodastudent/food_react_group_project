@@ -38,10 +38,12 @@
 .nav_link_text {
   margin-left: 10px;
 }
-.setting_active .setting_list_item {
-  background-color: #ea7c6942;
+.activeset {
+  position: relative;
+  background: rgba(234, 124, 105, 0.26);
+  color: #ea7c69;
 }
-.setting_active .nav_link_text::after {
+.activeset::after {
   content: "";
   position: absolute;
   top: 0;
