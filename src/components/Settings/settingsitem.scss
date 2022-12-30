@@ -1,0 +1,83 @@
+.settingsitems {
+    margin-top: 30px;
+
+    width: 300px;
+    height: 299px;
+    margin-right: 24px;
+    background-color: #1F1D2B;
+    border: 1px dashed #393C49;
+    border-radius: 8px;
+}
+
+.paddingitem {
+    padding: 22px 38px 16px;
+}
+
+.textsettings {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.spansettings {
+    display: inline-block;
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #ABBBC2;
+    position: relative;
+
+    &:nth-child(1):after {
+        content: "";
+        position: absolute;
+        top: 8px;
+        right: -10px;
+        width: 4px;
+        height: 4px;
+        background: #C4C4C4;
+        border-radius: 50%;
+    }
+
+    &:nth-child(2){
+    
+    margin-right: 0;
+}
+
+}
+
+.settingsbtnedit{
+    padding: 6px 0;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #EA7C69;
+    background: #ea7c6990;
+    border: none;
+    position: relative;
+
+    &::before{
+    content: "";
+    position: absolute;
+        top: 8px;
+        left: 95px;
+        background-image: url("../../assets/images/editbtn.svg");
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
+
+
+
+
+
+

@@ -14,10 +14,14 @@ import {
   AboutIconPink,
 } from "../../assets/images/icons/icons";
 import { Link } from "react-router-dom";
+import { Settingsheader } from "./Settingsheader/Settingsheader";
+
+
 export const Settings = () => {
   return (
     <div className="setting_part">
       <h2 className="setting_part_title">Settings</h2>
+      <div className="d-flex">
       <div className="setting_part_box">
         <ul className="setting_list">
           <li className="setting_list_item">
@@ -104,6 +108,10 @@ export const Settings = () => {
             </Link>
           </li>
         </ul>
+      </div>
+      <div className="adminmainpage">
+         <Settingsheader />
+      </div>
       </div>
     </div>
   );
