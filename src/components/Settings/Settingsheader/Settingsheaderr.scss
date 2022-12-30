@@ -1,0 +1,95 @@
+
+.admin-header{
+    // width: 100%;
+    // max-width: 800px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.admin-title {
+   
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    color: #ffffff;
+}
+
+.admin-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #ffffff;
+    padding: 14px 14px 14px 44px;
+    background-color: #1f1d2b;
+    border: 1px solid #393c49;
+    border-radius: 8px;
+    position: relative;
+  
+    &::before {
+      content: "";
+      background-image: url("../../../assets/images/elemets/Filter.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 13px;
+      left: 14px;
+    }
+}
+
+
+
+
+.addbtn-box{
+    margin-top: 30px;
+width: 300px;
+height: 299px;
+margin-right: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #1F1D2B;
+border: 1px dashed #EA7C69;
+border-radius: 8px;
+}
+
+.addbtn-middle{
+display: flex;
+flex-direction: column;
+
+}
+
+.addbtn{
+    font-size: 30px;
+    color: #EA7C69;
+    background:transparent;
+    border: none;
+}
+
+.addbtn-text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #EA7C69;
+}
+
+
+.settingslists{
+    display: flex;
+    justify-content: space-around;
+height: 600px;
+overflow-y: scroll;
+
+    flex-wrap: wrap;
+list-style: none;
+margin: 0;
+padding: 0;
+
+&::-webkit-scrollbar{
+display: none;
+}
+}
